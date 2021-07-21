@@ -5,14 +5,7 @@ title: "The Chinese Emperor's 'Hindustan' Jades"
 <div class="topnav">
 	<input type="text" placeholder="Search..">
 </div>
-.topnav input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
+
 ---
 <p>
 “The Chinese Emperor’s Hindustan Jades” integrates text analysis, mapping, and interactive
