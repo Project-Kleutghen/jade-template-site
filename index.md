@@ -2,10 +2,6 @@
 layout: archive
 permalink: /
 title: "The Chinese Emperor's 'Hindustan' Jades"
-<div class="topnav">
-	<input type="text" placeholder="Search..">
-</div>
-
 ---
 <p>
 “The Chinese Emperor’s Hindustan Jades” integrates text analysis, mapping, and interactive
