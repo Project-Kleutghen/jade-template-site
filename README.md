@@ -12,9 +12,9 @@ the 'Fragrant Concubine' by Teng.
 
 ## How to Work on This Repo ##
 * index.md (home page)
-* navigation.yml (sets header links for tabs)
-* footer.yml (sets footer links
-* to create new pages (create new .html or .md files, set default to archive, css is set in the 
+* navigation.yml (sets header links)
+* footer.yml (sets footer links)
+* to create new pages (create new .html or .md files, set default to archive, css is set in default)
 
 ## Site Setup ##
 from jekyll-theme-skinny-bones-master
