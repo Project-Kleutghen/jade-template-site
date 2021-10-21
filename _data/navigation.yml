@@ -1,23 +1,22 @@
 # Site navigation links
 
-- title: Jade 001
+- title: 青灰玉碗
   url: /pages/jade-001.html
   excerpt: Sample of ultimate project goals with Jade 001
-  image: 
-  
+  image:
+
 - title: Defining Hindustan
   url: /pages/defining-hindustan.html
-  excerpt: A closer look at Jade010 and 011 to analyze the meaning 
+  excerpt: A closer look at Jade010 and 011 to analyze the meaning
             and creation of the term 'Hindustan' by Emperor Qianlong
-  image: 
-    
+  image:
+
 - title: Texts & Image Collection
   url: /pages/texts-images-collection.html
   excerpt: Tab for housing all of our static images and texts
-  image: 
-  
+  image:
+
 - title: Search
   url: /pages/search_tab.html
   excerpt: Search tab
   image:
-    
