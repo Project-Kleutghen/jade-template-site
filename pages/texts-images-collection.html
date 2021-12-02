@@ -12,52 +12,7 @@ permalink: /pages/texts-images-collection.html
   <h5>{{ site.title }} <span>{{ site.data.messages.locales[site.locale].toc }}</span></h5>
   <ul class="menu-item">
 <script>
-
-function filterSelection(filter value) {
-        if (filtervalue == 'Show all') {
-          $('article').css ({'display': 'block'});
-             }
-        else if (filterValue == 'Object Type') {
-          $('article').css ({'display': 'block'});
-        }
-
-        else if (filterValue == 'Post-1790') {
-          $('article').css ({'display': 'block'})
-        }
-
-        else {
-          $('article').each(
-          function() {
-            if($(this)attr.('year') == filterValue) {
-              $(this).css({'display': 'block'});
-            }
-
-              else {
-                $(this).css({'display == 'none});
-              }
-            }
-          );
-        }
-      }
-    </script>
-
-    <div class="archive-wrap">
-      <div class="page-content">
-        <div class="tiles">
-          <div class="page-wrapper">
-            <div id="main" role="main">
-              <div class="wrap">
-
-                      <div id="myBtnContainer">
-                        <button class="btn active" onclick="filterSelection('Show all')"> Show all</button>
-                        <button class="btn" onclick="filterSelection('Object Type')"> Object Style </button>
-                        <button class="btn" onclick="filterSelection('1750')"> 1750 </button>
-                        <button class="btn" onclick="filterSelection('1760')"> 1760 </button>
-                        <button class="btn" onclick="filterSelection('1770')"> 1770 </button>
-                        <button class="btn" onclick="filterSelection('1780')"> 1780 </button>
-                        <button class="btn" onclick="filterSelection('1790')"> 1790 </button>
-                        <button class="btn" onclick="filterSelection('Post-1790')"> Post-1790 </button>
-                        </div>
+  
     <li>
       <a href="https://sarahrider.github.io/fun-website-test/pages/jade-001.html">
       <img src="https://raw.githubusercontent.com/sarahrider/fun-website-test/master/images/jade001_teaser_img.jpg" alt="teaser" class="teaser">
@@ -116,6 +71,55 @@ function filterSelection(filter value) {
   <h1>Jade Image, Text, and Map Collection</h1>
   <h2>A collection of the the Jade texts with linked pages for viewing mapping and text analysis</h2>
 </div>
+
+<script>
+
+function filterSelection(filter value) {
+        if (filtervalue == 'Show all') {
+          $('article').css ({'display': 'block'});
+             }
+        else if (filterValue == 'Object Type') {
+          $('article').css ({'display': 'block'});
+        }
+
+        else if (filterValue == 'Post-1790') {
+          $('article').css ({'display': 'block'})
+        }
+
+        else {
+          $('article').each(
+          function() {
+            if($(this)attr.('year') == filterValue) {
+              $(this).css({'display': 'block'});
+            }
+
+              else {
+                $(this).css({'display == 'none});
+              }
+            }
+          );
+        }
+      }
+    </script>
+
+    <div class="archive-wrap">
+      <div class="page-content">
+        <div class="tiles">
+          <div class="page-wrapper">
+            <div id="main" role="main">
+              <div class="wrap">
+    <li>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('Show all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Object Type')"> Object Style </button>
+  <button class="btn" onclick="filterSelection('1750')"> 1750 </button>
+  <button class="btn" onclick="filterSelection('1760')"> 1760 </button>
+  <button class="btn" onclick="filterSelection('1770')"> 1770 </button>
+  <button class="btn" onclick="filterSelection('1780')"> 1780 </button>
+  <button class="btn" onclick="filterSelection('1790')"> 1790 </button>
+  <button class="btn" onclick="filterSelection('Post-1790')"> Post-1790 </button>
+  </div>
 
 <div>
     <article class="tile" itemscope="" itemtype="http://schema.org/Article">
