@@ -71,36 +71,6 @@ permalink: /pages/texts-images-collection.html
   <h2>A collection of the the Jade texts with linked pages for viewing mapping and text analysis</h2>
 </div>
 
-<script>
-
-function filterSelection(filter value) {
-        if (filtervalue == 'Show all') {
-          $('article').css ({'display': 'block'});
-             }
-        else if (filterValue == 'Object Type') {
-          $('article').css ({'display': 'block'});
-        }
-
-        else if (filterValue == 'Post-1790') {
-          $('article').css ({'display': 'block'})
-        }
-
-        else {
-          $('article').each(
-          function() {
-            if($(this)attr.('year') == filterValue) {
-              $(this).css({'display': 'block'});
-            }
-
-              else {
-                $(this).css({'display == 'none});
-              }
-            }
-          );
-        }
-      }
-    </script>
-
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('Show all')"> Show all</button>
   <button class="btn" onclick="filterSelection('Object Type')"> Object Style </button>
@@ -111,6 +81,36 @@ function filterSelection(filter value) {
   <button class="btn" onclick="filterSelection('1790')"> 1790 </button>
   <button class="btn" onclick="filterSelection('Post-1790')"> Post-1790 </button>
   </div>
+
+  <script>
+
+  function filterSelection(filter value) {
+          if (filtervalue == 'Show all') {
+            $('article').css ({'display': 'block'});
+               }
+          else if (filterValue == 'Object Type') {
+            $('article').css ({'display': 'block'});
+          }
+
+          else if (filterValue == 'Post-1790') {
+            $('article').css ({'display': 'block'})
+          }
+
+          else {
+            $('article').each(
+            function() {
+              if($(this)attr.('year') == filterValue) {
+                $(this).css({'display': 'block'});
+              }
+
+                else {
+                  $(this).css({'display == 'none});
+                }
+              }
+            );
+          }
+        }
+      </script>
 
   <div class="archive-wrap">
     <div class="page-content">
