@@ -4,7 +4,7 @@ description: "This is a description of my awesome site."
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
-url: https://sarahrider.github.io/fun-website-test
+url: https://Project-Kleutghen.github.io/jade-template-site
 feed:
   path: atom.xml
 
